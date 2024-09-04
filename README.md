@@ -1,5 +1,5 @@
 # MySQL
-*CREATE DATABASE inventory_db;
+CREATE DATABASE inventory_db;
 
 USE inventory_db;
 
@@ -8,7 +8,7 @@ CREATE TABLE products (
     name VARCHAR(255) NOT NULL,
     quantity INT NOT NULL,
     warehouse VARCHAR(255) NOT NULL
-);*
+);
 
 -------------------------------------------
 ## Шаг 2: Пишем код на Python
